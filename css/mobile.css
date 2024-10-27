@@ -1,0 +1,79 @@
+
+:root{
+    --White: #ffffff;
+    --Slate_300: #D5E1EF;
+    --Slate_500: #68778D;
+    --Slate_900: #1F314F;
+    --lg: 2.4rem;
+    --md: 1.6rem;
+    --sm: 1rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+    font-size: 62.5%;
+  }
+
+  body{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--Slate_300);
+  }
+
+  .main-container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1f auto;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .main-cart{
+    background-color: white;
+    width: 200px;
+    height: 340px;
+    display: grid;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .img-code{
+    text-align: center;
+  }
+
+  .img-code img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .text{
+    padding: 10px;
+    text-align: center;
+  }
+  .text p:nth-child(1){
+    color: var(--Slate_900);
+    font-weight: bold;
+    font-size: var(--md);
+    margin-bottom: 15px;
+  }
+  .text p:nth-child(2){
+    color: var(--Slate_500);
+    font-size: var(--sm);
+  }
+
+
+
+
+  .attribution { 
+    font-size: 11px; text-align: center; 
+    }
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+    }
